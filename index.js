@@ -14,9 +14,8 @@ const facts = [
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"];
   
-var array = [];
 let i = 0;
-while (array.length < facts.length) {
+while (i < facts.length) {
  array.push(facts[i] + '!!!');
   i++;
 }
