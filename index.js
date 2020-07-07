@@ -17,7 +17,6 @@ let i = 0;
 while (i < facts.length) {
   return ${i} !!!;
   i++;
-  
 }
 return array;
 }
