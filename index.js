@@ -18,7 +18,7 @@ var facts = [
 let i = 0;
 
  while(i < facts.length) { 
-     array.push(`${i}!!!`);
+     array.push(`${facts}!!!`);
      i++;
    }
    return array;
