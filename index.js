@@ -23,3 +23,4 @@ let i = 0;
      i++
    }
    return allFacts
+}
