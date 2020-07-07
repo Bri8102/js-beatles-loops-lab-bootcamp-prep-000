@@ -9,7 +9,7 @@ function theBeatlesPlay(musicians,instruments) {
 
 
 
-function johnLennonFacts() {
+/* function johnLennonFacts() {
 var facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
@@ -22,13 +22,13 @@ var array = [];
      i++;
    }
    return array;
-} //
+} */
 
 function johnLennonFacts(array) {
-//   var i = 0;
-//   while (i < array.length) {
-//     array[i] = array[i] + "!!!";
-//     i++;
-//   }
-//   return array;
-// }
+var i = 0;
+ while (i < array.length) {
+  array[i] = array[i] + "!!!";
+    i++;
+ }
+  return array;
+}
