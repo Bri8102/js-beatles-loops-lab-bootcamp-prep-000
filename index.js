@@ -17,8 +17,8 @@ var facts = [
   "He hated the sound of his own voice"];
 let i = 0;
 
- while(i<facts.length){ 
-     var newFact = `${facts[i]} !!!`;
+ while(i<facts.length) { 
+     var newFact = `${facts[i]}!!!`;
      array.push(newFact);
      i++;
    }
