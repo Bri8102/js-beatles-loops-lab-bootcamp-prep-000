@@ -14,9 +14,9 @@ const facts = [
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"];
   
-var array = []
+var array = [];
 let i = 0;
-while (i < facts.length) {
+while (array.length < facts.length) {
   return ${i} !!!;
   i++;
 }
