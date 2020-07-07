@@ -18,11 +18,11 @@ var i = 0;
 } 
 
 
-function iLoveTheBeatles(num) {
+function iLoveTheBeatles(number) {
   var array = [];
-  let number = 0;
+  let i = 0;
   do {array.push('I love the Beatles!');
   number++;}
-  while (number <= && number <15 );
+  while (i <= number && number <15 );
   
 }
