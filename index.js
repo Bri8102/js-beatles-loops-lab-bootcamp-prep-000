@@ -13,10 +13,10 @@ const facts = [
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"];
-  
+array = [];
 let i = 0;
 while (i < facts.length) {
- facts[i] = facts[i] + "!!!";
+ facts[i] = array.push(facts[i] + "!!!");
   i++;
 }
 return facts;
