@@ -20,8 +20,8 @@ var i = 0;
 
 function iLoveTheBeatles(number) {
   var array = [];
-  let i = 0
+  let i = 0;
   do {array.push('I love the Beatles!');
-  i++; }
+  i++;}
   while ()
 }
