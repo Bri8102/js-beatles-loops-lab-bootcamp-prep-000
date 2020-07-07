@@ -16,8 +16,8 @@ const facts = [
 array = [];
 let i = 0;
 while (i < facts.length) {
- facts[i] = array.push(facts[i] + "!!!");
+ array.push(facts[i] + "!!!");
   i++;
 }
-return facts;
+return array;
 }
