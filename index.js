@@ -13,9 +13,9 @@ const facts = [
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"];
-let i = 0
+let i = 0;
 while (i < facts.length) {
-  console.log(`${facts} !!!`) 
+  console.log(`${facts} !!!`) ;
   i++;
   
 }
