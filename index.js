@@ -7,8 +7,7 @@ function theBeatlesPlay(musicians,instruments) {
   return array;
 }
 
-array = [];
-let i = 0;
+allFacts = [];
 
 function johnLennonFacts() {
 var facts = [
@@ -16,10 +15,11 @@ var facts = [
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"];
+let i = 0;
 
-while (i < facts.length) {
- array.push(facts[i] + "!!!");
-  i++;
-}
-return array;
-}
+ while(i<facts.length){ 
+     var newFact = `${facts[i]}!!!`
+     allFacts.push(newFact)
+     i++
+   }
+   return allFacts
