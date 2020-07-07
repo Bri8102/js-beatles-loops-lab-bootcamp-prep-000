@@ -17,7 +17,7 @@ const facts = [
 var array = [];
 let i = 0;
 while (array.length < facts.length) {
- array.push(i} !!!;
+ array.push(facts[i] + !!!);
   i++;
 }
 return array;
