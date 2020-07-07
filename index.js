@@ -18,7 +18,7 @@ var facts = [
 let i = 0;
 
  while(i<facts.length){ 
-     var newFact = `${facts[i]}!!!`;
+     var newFact = `${facts[i]} !!!`;
      array.push(newFact);
      i++;
    }
